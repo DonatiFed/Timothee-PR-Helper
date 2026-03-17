@@ -26,13 +26,13 @@ pytestmark = pytest.mark.skipif(
 @pytest.fixture(scope="module")
 def phase1_result():
     """Run Phase 1 once for all tests in this module."""
-    return run_phase1(str(ROOT / "packet_a.md"))
+    return run_phase1(str(ROOT / "challenge_docs" / "packet_a.md"))
 
 
 @pytest.fixture(scope="module")
 def phase2_result(phase1_result):
     """Run Phase 2 once for all tests in this module."""
-    return run_phase2(phase1_result, str(ROOT / "packet_b.md"))
+    return run_phase2(phase1_result, str(ROOT / "challenge_docs" / "packet_b.md"))
 
 
 # ── Phase 1 tests ───────────────────────────────────────────────────

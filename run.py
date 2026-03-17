@@ -2,7 +2,7 @@
 """Main entry point — runs the full crisis-response pipeline.
 
 Usage:
-    python run.py                          # uses default packet_a.md / packet_b.md
+    python run.py                          # uses default challenge_docs/packet_a.md
     python run.py --packet-a <path> --packet-b <path>
     python run.py --phase1-only --packet-a custom_packet.md
 """
@@ -19,12 +19,12 @@ from agent.formatter import format_submission
 def main():
     parser = argparse.ArgumentParser(description="Timothée Crisis-Response Agent")
     parser.add_argument(
-        "--packet-a", default="packet_a.md",
-        help="Path to Phase 1 packet (default: packet_a.md)",
+        "--packet-a", default="challenge_docs/packet_a.md",
+        help="Path to Phase 1 packet (default: challenge_docs/packet_a.md)",
     )
     parser.add_argument(
-        "--packet-b", default="packet_b.md",
-        help="Path to Phase 2 escalation packet (default: packet_b.md)",
+        "--packet-b", default="challenge_docs/packet_b.md",
+        help="Path to Phase 2 escalation packet (default: challenge_docs/packet_b.md)",
     )
     parser.add_argument(
         "--phase1-only", action="store_true",

@@ -13,11 +13,11 @@ ROOT = Path(__file__).resolve().parent.parent
 
 @pytest.fixture
 def packet_a_text():
-    return (ROOT / "packet_a.md").read_text(encoding="utf-8")
+    return (ROOT / "challenge_docs" / "packet_a.md").read_text(encoding="utf-8")
 
 @pytest.fixture
 def packet_b_text():
-    return (ROOT / "packet_b.md").read_text(encoding="utf-8")
+    return (ROOT / "challenge_docs" / "packet_b.md").read_text(encoding="utf-8")
 
 
 # ── Packet A parsing ────────────────────────────────────────────────
