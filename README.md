@@ -57,14 +57,17 @@ python run.py -o output/my_submission.md
 ## Running tests
 
 ```bash
-# Unit tests (no API key needed)
-python -m pytest tests/test_parser.py -v
+# Unit tests (no API key needed — parser + synthetic packet structure)
+python -m pytest tests/test_parser.py tests/test_scenarios.py::TestSyntheticParserOnly -v
 
 # Integration tests (requires API key)
 python -m pytest tests/test_integration.py -v
 
-# Scenario tests with synthetic packets
+# Scenario tests with synthetic packets (requires API key)
 python -m pytest tests/test_scenarios.py -v
+
+# Run a synthetic scenario through the full pipeline manually
+python run.py --packet-a test_scenarios/scenario_1_packet_a.md --packet-b test_scenarios/scenario_1_packet_b.md -v
 ```
 
 ## Project structure
@@ -78,11 +81,19 @@ python -m pytest tests/test_scenarios.py -v
 │   ├── pipeline.py         # Orchestrator (run_phase1, run_phase2)
 │   └── formatter.py        # Submission document generator
 ├── tests/
+│   ├── conftest.py         # Shared pytest configuration
 │   ├── test_parser.py      # Parser unit tests
 │   ├── test_integration.py # Full pipeline integration tests
-│   └── test_scenarios.py   # Synthetic scenario tests
-├── packet_a.md             # Phase 1 scenario inputs
-├── packet_b.md             # Phase 2 escalation inputs
+│   └── test_scenarios.py   # Synthetic scenario tests (4 scenarios)
+├── test_scenarios/         # Standalone synthetic crisis packets for testing
+│   ├── scenario_1_packet_a.md  # Elara Voss — environmental hypocrisy video
+│   ├── scenario_1_packet_b.md
+│   ├── scenario_2_packet_a.md  # Marcus Bell — deleted classical music tweet
+│   ├── scenario_2_packet_b.md
+│   ├── scenario_3_packet_a.md  # Camille Fontaine — disability mockery photo
+│   └── scenario_3_packet_b.md
+├── packet_a.md             # Phase 1 scenario inputs (published)
+├── packet_b.md             # Phase 2 escalation inputs (published)
 ├── challenge_brief.md      # Challenge rules and scoring
 ├── .env.example            # API key template
 ├── .gitignore
@@ -94,6 +105,7 @@ python -m pytest tests/test_scenarios.py -v
 - **Modular pipeline** — Each stage is a separate LLM call with its own system prompt. This makes outputs auditable and easy to debug/override.
 - **Structured JSON outputs** — Every stage returns JSON, making it easy to chain stages and format the final submission.
 - **Parser generalizes** — The markdown parser uses regex patterns that work on any packet following the same structure, not just the published examples.
+- **4 synthetic test scenarios** — In addition to the published packets, four completely different crisis scenarios (Maya Santos / theater, Elara Voss / environment, Marcus Bell / classical music, Camille Fontaine / disability) prove the pipeline generalizes. Each has its own Packet A + B pair.
 - **Phase 2 updates, never restarts** — The adaptation stage receives the full Phase 1 plan and must preserve completed actions.
 - **Voice constraints enforced at draft time** — The drafting system prompt embeds all voice guidelines so every response is on-brand.
 - **Approval gates in timeline** — The sequencer explicitly models who must approve what and when.
@@ -109,12 +121,4 @@ Running `python run.py` produces `output/submission.md` containing:
 - Human edit disclosure
 - Appendix with full raw JSON
 
-## Scoring alignment
 
-| Criteria (weight) | How this agent addresses it |
-|---|---|
-| Crisis judgment & triage (35%) | Dedicated triage stage with severity, risks, stakeholder priorities |
-| Adaptation (20%) | Phase 2 ADAPT stage updates plan without restarting |
-| Cross-stakeholder coordination (15%) | Separate drafts per stakeholder, approval chains, sequenced timeline |
-| Ease of implementation & handoff (15%) | Single `python run.py` command, clear output, works on any packet |
-| Workflow credibility (15%) | 5-stage pipeline, JSON audit trail, proof block in submission |

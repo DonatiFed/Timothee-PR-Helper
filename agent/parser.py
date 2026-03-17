@@ -35,7 +35,7 @@ def _extract_deadline(text: str) -> Optional[str]:
 
 
 def _estimate_priority(stakeholder: StakeholderType, text: str) -> MessagePriority:
-    urgent_signals = ["escalat", "pause", "hold", "cancel", "immediately", "urgent",
+    urgent_signals = ["escalat", "paus", "hold", "cancel", "immediately", "urgent",
                       "within the next", "precautionary"]
     text_lower = text.lower()
     if any(s in text_lower for s in urgent_signals):
