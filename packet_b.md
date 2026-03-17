@@ -38,13 +38,11 @@ These voicemail summaries are verified inbound signals available to the team by 
 ### Laurent Duchamp, VP Partnerships — Maison Clarée
 **Received:** 18:03  
 **Duration:** 0:24  
-**Metadata:** Voice is clipped, formal register dropped mid-message, background noise suggests he stepped away from a meeting.
 **MP3:** [Laurent Duchamp.mp3](https://github.com/user-attachments/files/26054236/Laurent.Duchamp.mp3)
 
 ### Tom Ellery, Journalist — Arts & Culture Weekly
 **Received:** 17:52  
 **Duration:** 0:28  
-**Metadata:** Tone is breezy, leaving message out of courtesy rather than urgency, clearly expects no same-day response.
 **MP3:** [Tom Ellery.mp3](https://github.com/user-attachments/files/26054251/Tom.Ellery.mp3)
 
 **Why it matters:** High-priority sponsor-side escalation signal. Treat this as time-sensitive stakeholder pressure.
