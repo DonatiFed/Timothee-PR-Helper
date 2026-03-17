@@ -4,7 +4,7 @@
 
 Build a crisis response agent for a fast moving celebrity backlash. The job is to assess risk, route work across stakeholders, produce aligned communications, and update the plan when pressure increases.
 
-We score judgment, sequencing, coordination, workflow evidence, and how well the workflow adapts to unseen inputs.
+We score judgment, sequencing, coordination, workflow evidence, ease of handoff. Also, how well the workflow adapts to unseen inputs.
 
 This challenge is designed to:
   require a real agentic workflow
@@ -12,12 +12,6 @@ This challenge is designed to:
   show decisions, approvals, and revisions in action
   reward process quality, not polished copy alone
   reward workflows that generalize beyond one fixed example
-
-## Why this scenario works
-
-This challenge uses a controlled version of the Timothée Chalamet ballet/opera backlash. In public coverage, that issue moved from a clipped quote into arts community criticism, meme amplification, institution responses, and awards night commentary.
-
-The scenario combines incomplete context, rapid spread across social platforms, sponsor risk, and hard timing constraints. Timmy is a high visibility actor with a polished public image and a large online audience. Because the quote is about ballet and opera, the backlash spreads beyond celebrity coverage into culture and institution accounts. That makes the story harder to contain and raises sponsor and press pressure.
 
 ## Scenario structure
 
@@ -40,14 +34,6 @@ Packet A and Packet B are builder facing examples. They show the structure, timi
 They are not the full test set.
 
 Organizers will judge entries using unseen evaluation inputs built in the same style and file formats as Packet A and Packet B. Those hidden inputs will test whether your workflow can adapt to new but comparable facts, signals, and stakeholder pressure rather than only perform well on the published example packets.
-
-A strong use of hidden evaluation inputs is short voicemail style items. These may include:
-  high priority voicemails from a sponsor or manager
-  lower priority voicemails from a less urgent stakeholder
-
-Each voicemail style input will include at minimum:
-  sender
-  timestamp
 
 The goal is to test whether the workflow can correctly interpret urgency, route attention, and re prioritize across multiple inbound signals without relying on one exact published packet.
 
@@ -80,65 +66,22 @@ You do not need a full production app. Valid entries can be code based, no code,
 
 ## Submission requirements
 
-Submit:
-1. a public GitHub repo
-2. the official submission form with team name, contact email, repo URL, and final commit SHA
+Submit a public GitHub repo with:
 
-The final commit SHA is the version we judge.
+A README explaining what you built and how to run or review it
+A main submission file with your Phase A and Phase B outputs, workflow proof block, raw-to-final reporter reply pair, and human edit disclosure
+Any supporting files needed to understand how the build works (code, notebooks, workflow exports, configs, demo video — include what you need, skip what you don't)
+We allow a lot of flexibility and creativity here. There is no single right way to build this. **But remeber part of the grade is how easy handoff is for a PR team to start using immediately.**
 
-Your repo must include:
-  one main submission file
-  one standalone first hour triage table artifact
-  a short workflow overview or README
-  short instructions showing how your workflow should be run or reviewed on Packet A type and Packet B type inputs
-  any optional support files needed to understand how the build works
+How we judge entries
+Entries are scored across five dimensions by human judges. The published packets help you understand the task and demonstrate your workflow. Final judging is based on how well the workflow holds up on unseen evaluation inputs of the same formats and overall scenario shape.
 
-## Required outputs
+Crisis judgment, triage, and sequencing — 35%
+Adaptation to new information — 20%
+Cross-stakeholder coordination — 15%
+Ease of implementation and handoff — 15%
+Workflow credibility — 15%
+High-scoring entries show clear triage, sensible restraint, aligned outputs across stakeholders, and a workflow someone else could pick up and run tomorrow on a new version of the same problem.
 
-The main submission file must include:
-
-### Phase 1
-  crisis severity with a short reason
-  public response or a decision to hold comment, with a short reason
-  reporter reply
-  sponsor reply, including a sponsor safe holding line of 40 words or fewer
-  awards night contingency plan
-  three red flags
-
-### Phase 2
-  what changed
-  what stays the same
-  revised next 30 minutes
-  revised sponsor reply
-  one sentence on whether the public response timing changes
-
-### Workflow evidence
-  workflow proof block
-  raw to final reporter reply pair
-  human edit disclosure
-
-The separate triage table must include:
-  stakeholder
-  priority
-  next action
-  owner
-  approval needed
-  due by
-
-## How we judge entries
-
-The published packets help entrants understand the task and demonstrate their workflow. Final judging is based on how well the workflow holds up on unseen evaluation inputs of the same file types and overall scenario shape.
-
-  **Crisis judgment, triage, and sequencing — 40%**  
-  Does the agent read the room, route work to the right stakeholders, and sequence the right next moves under timing pressure?
-
-  **Cross stakeholder coordination — 20%**  
-  Do the public, reporter, sponsor, and event facing outputs stay aligned with each other?
-
-  **Adaptation to unseen same format inputs — 25%**  
-  When the facts, tone, urgency, or stakeholder pressure change inside Packet A type and Packet B type inputs, including voicemail style items with sender and timestamp, does the workflow adjust intelligently rather than collapse or repeat a canned answer?
-
-  **Agent/workflow credibility — 15%**  
-  Does the submission show a reusable process with real approval logic, believable workflow evidence, and a setup organizers can inspect against hidden evaluation inputs?
-
-High scoring entries show clear triage, sensible restraint, strong approval logic, aligned outputs, and a workflow another operator could run again on a new version of the same problem.
+Allowed APIs and tools
+Paid AI APIs: OpenAI, Claude, and Gemini only. Any free API is fine. Workflow tools (n8n, LangChain, CrewAI, etc.) are unrestricted.
