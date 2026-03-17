@@ -1,0 +1,740 @@
+{
+  "phase1": {
+    "phase": "Phase 1",
+    "context_summary": "TALENT: Timoth\u00e9e Chalamet\nSCENARIO TIME: 5:30 PM\nSITUATION: A 22-second interview clip started spreading at about 4:45 PM across TikTok, X, Instagram Reels, Reddit, and group chats. By 5:30 PM it has become a fast-moving arts-and-celebrity backlash, with meme risk rising a few hours before a major awards-night appearance.\nCLIP: The clip shows Timoth\u00e9e saying he does not want to be working in **\"ballet or opera\"** where **\"no one cares about this anymore.\"**\nKNOWN LIMITS:\n  - the clip is real\n  - it came from a longer conversation\n  - the full conversation is not provided here\n  - you do not know what was said immediately before or after the clip\nTIMING CONSTRAINTS:\n  - Timoth\u00e9e is off-phone in prep until **6:05 PM**.\n  - Any public statement in Timoth\u00e9e's voice requires **Timoth\u00e9e's approval**.\n  - The manager can approve **sponsor and reporter holding replies** before then.\n  - Maison Valeur needs a sponsor-safe holding line by **5:50 PM**.\n  - That holding line must work before full facts are available and must be **40 words or fewer**.\nVOICE \u2014 AIM FOR: calm, self-aware, and human; specific without sounding over-lawyered; respectful to the affected audience; accountable for impact without overstating unverified facts\nVOICE \u2014 DO NOT: make **\"you misunderstood me\"** the whole message; argue with commenters; try to joke this away; sound condescending about ballet, opera, or \"old\" art; center awards-night excitement while backlash is active\nINBOUND MESSAGES:\n  [MessagePriority.URGENT] Sponsor \u2014 Maison Valeur partnership lead, 5:18 PM: We are seeing a sharp rise in tags and comments tying Timoth\u00e9e to the circulating clip. Before arrivals, we need to know whether more context is expected, whether Timoth\u00e9e plans to address this publicly, and whether you recommend any change to his planned sponsor-facing activity tonight. Our team is monitoring closely.\n  [MessagePriority.STANDARD] Reporter \u2014 Alex Chen, The Daily Ledger, 5:22 PM: We are preparing a short piece on the reaction to Timoth\u00e9e Chalamet's viral comments this afternoon. Can you confirm whether the circulating quote is accurate, whether Timoth\u00e9e stands by the remark, and whether he plans to address criticism before tonight's appearance? We aim to publish by **6:30 PM** and would welcome comment before then.\n  [MessagePriority.URGENT] Manager, 5:25 PM: The clip is real, but it is from a longer conversation and sounds harsher on its own. He was talking about audience demand and how art survives when people genuinely care enough to show up for it. He is in prep now, annoyed, and his instinct is to post something like \"watch the full context\" and move on. Arrivals start around **7:30 PM**. Maison Valeur wants to know whether he is still doing carpet and press as planned.\n\n**Status of that explanation:** internal context only. It is **not** independently verified by this packet.",
+    "triage": {
+      "severity": "high",
+      "reasoning": "A viral clip criticizing ballet/opera has sparked fast-moving arts community backlash hours before a major awards appearance. The talent is unreachable during critical response window, and key sponsor Maison Valeur needs immediate reassurance while press coverage is imminent.",
+      "immediate_actions": [
+        "Draft sponsor holding line for manager approval by 5:50 PM",
+        "Prepare reporter holding response for manager approval",
+        "Monitor sentiment metrics and meme evolution",
+        "Draft fuller statement options for Timoth\u00e9e's 6:05 PM review",
+        "Alert carpet/arrivals team about potential hostile questions"
+      ],
+      "risks": [
+        "Sponsor relationship damage if Maison Valeur perceives inadequate response",
+        "Arts community alienation affecting long-term brand positioning",
+        "Meme acceleration making sincere response harder",
+        "Awards night coverage overshadowed by controversy",
+        "Defensive response worsening perception"
+      ],
+      "stakeholder_priorities": [
+        "Maison Valeur: Needs holding line by 5:50 PM to assess partnership risk",
+        "The Daily Ledger: Publishing at 6:30 PM, shapes narrative",
+        "Timoth\u00e9e: Available at 6:05 PM, must approve any statement",
+        "Arts community: Seeking accountability for perceived dismissal",
+        "Awards show producers: Need to know if carpet plans change"
+      ]
+    },
+    "drafts": [
+      {
+        "target": "sponsor",
+        "recipient_name": "Maison Valeur",
+        "content": "We're aware of the clip and actively addressing it. Timoth\u00e9e values the arts deeply and will clarify his comments. Tonight's appearances proceed as planned. Full context coming soon.",
+        "word_count": 28,
+        "approval_required_from": "Manager",
+        "rationale": "Acknowledges issue without panic, confirms stability of partnership activities, promises resolution without making unverified claims about context",
+        "deadline": "5:50 PM"
+      },
+      {
+        "target": "reporter",
+        "recipient_name": "Alex Chen",
+        "content": "The clip appears to be from a longer conversation about how arts organizations can build sustainable audiences. We're working to provide fuller context. Timoth\u00e9e has deep respect for all performing arts and their communities. We'll have more to share shortly.",
+        "word_count": 41,
+        "approval_required_from": "Manager",
+        "rationale": "Provides holding context without claiming full verification, acknowledges the clip is real while suggesting incompleteness, expresses respect for affected communities",
+        "deadline": "6:15 PM"
+      },
+      {
+        "target": "manager",
+        "recipient_name": "Manager",
+        "content": "Recommend against 'watch the full context' approach - sounds dismissive when arts community feels disrespected. Suggest: acknowledge the impact, clarify his actual point about audience engagement, express genuine respect for these art forms. Can draft options by 6:00 PM for his review. Carpet proceeds but prep him for questions.",
+        "word_count": 52,
+        "approval_required_from": "None - internal",
+        "rationale": "Guides away from defensive response that could worsen situation, offers constructive alternative that addresses core concerns",
+        "deadline": "5:35 PM"
+      },
+      {
+        "target": "public",
+        "recipient_name": "Public Statement Draft",
+        "content": "I see how my words in that clip landed, and I'm genuinely sorry. I was trying to make a point about how arts organizations struggle when audiences don't show up - but I expressed it terribly. Ballet and opera are extraordinary art forms that deserve thriving audiences. The artists who dedicate their lives to these crafts have my complete respect. I should have said that better.",
+        "word_count": 68,
+        "approval_required_from": "Timoth\u00e9e",
+        "rationale": "Acknowledges impact without overexplaining, takes responsibility for poor expression rather than blaming misunderstanding, specifically honors the art forms and artists affected, sounds genuinely reflective rather than PR-crafted",
+        "deadline": "6:05 PM"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "5:30 PM",
+        "action": "Begin monitoring sentiment metrics and meme evolution across all platforms",
+        "owner": "Social Media Coordinator",
+        "status": "ready",
+        "depends_on": null
+      },
+      {
+        "time": "5:35 PM",
+        "action": "Send internal guidance to Manager about response strategy",
+        "owner": "PR Lead",
+        "status": "ready",
+        "depends_on": null
+      },
+      {
+        "time": "5:40 PM",
+        "action": "Draft sponsor holding line for Maison Valeur",
+        "owner": "PR Lead",
+        "status": "ready",
+        "depends_on": null
+      },
+      {
+        "time": "5:45 PM",
+        "action": "Manager reviews and approves sponsor holding line",
+        "owner": "Manager",
+        "status": "pending",
+        "depends_on": "Draft sponsor holding line for Maison Valeur"
+      },
+      {
+        "time": "5:48 PM",
+        "action": "Send approved sponsor holding line to Maison Valeur",
+        "owner": "PR Lead",
+        "status": "pending",
+        "depends_on": "Manager reviews and approves sponsor holding line"
+      },
+      {
+        "time": "5:50 PM",
+        "action": "Draft reporter holding response for Alex Chen",
+        "owner": "PR Lead",
+        "status": "ready",
+        "depends_on": null
+      },
+      {
+        "time": "5:55 PM",
+        "action": "Alert carpet/arrivals team about potential hostile questions",
+        "owner": "PR Coordinator",
+        "status": "ready",
+        "depends_on": null
+      },
+      {
+        "time": "6:00 PM",
+        "action": "Manager reviews and approves reporter holding response",
+        "owner": "Manager",
+        "status": "pending",
+        "depends_on": "Draft reporter holding response for Alex Chen"
+      },
+      {
+        "time": "6:00 PM",
+        "action": "Complete draft of full public statement options for talent review",
+        "owner": "PR Lead",
+        "status": "ready",
+        "depends_on": null
+      },
+      {
+        "time": "6:03 PM",
+        "action": "Send approved reporter holding response to Alex Chen",
+        "owner": "PR Lead",
+        "status": "pending",
+        "depends_on": "Manager reviews and approves reporter holding response"
+      },
+      {
+        "time": "6:05 PM",
+        "action": "Brief Timoth\u00e9e on situation and present statement options",
+        "owner": "Manager",
+        "status": "pending",
+        "depends_on": "Complete draft of full public statement options for talent review"
+      },
+      {
+        "time": "6:15 PM",
+        "action": "Timoth\u00e9e reviews and approves public statement",
+        "owner": "Timoth\u00e9e",
+        "status": "pending",
+        "depends_on": "Brief Timoth\u00e9e on situation and present statement options"
+      },
+      {
+        "time": "6:20 PM",
+        "action": "Post approved public statement on primary social channels",
+        "owner": "Social Media Coordinator",
+        "status": "blocked",
+        "depends_on": "Timoth\u00e9e reviews and approves public statement"
+      },
+      {
+        "time": "6:25 PM",
+        "action": "Send follow-up to Maison Valeur with public statement link",
+        "owner": "PR Lead",
+        "status": "blocked",
+        "depends_on": "Post approved public statement on primary social channels"
+      },
+      {
+        "time": "6:25 PM",
+        "action": "Send follow-up to Alex Chen with public statement link",
+        "owner": "PR Lead",
+        "status": "blocked",
+        "depends_on": "Post approved public statement on primary social channels"
+      },
+      {
+        "time": "6:30 PM",
+        "action": "Continue monitoring reactions to public statement",
+        "owner": "Social Media Coordinator",
+        "status": "blocked",
+        "depends_on": "Post approved public statement on primary social channels"
+      },
+      {
+        "time": "7:00 PM",
+        "action": "Final briefing for Timoth\u00e9e on carpet talking points",
+        "owner": "PR Lead",
+        "status": "pending",
+        "depends_on": "Timoth\u00e9e reviews and approves public statement"
+      },
+      {
+        "time": "7:30 PM",
+        "action": "Support Timoth\u00e9e through arrivals and carpet appearances",
+        "owner": "PR Coordinator",
+        "status": "pending",
+        "depends_on": "Final briefing for Timoth\u00e9e on carpet talking points"
+      }
+    ],
+    "decision": {
+      "decision": "conditional_speak",
+      "rationale": "The viral clip has gained significant traction with arts community backlash intensifying before a major public appearance. With key sponsor concerns and imminent press coverage, strategic response is necessary once Timoth\u00e9e approves. The drafted statement effectively acknowledges impact without being defensive, making it worth executing if he's comfortable with the tone.",
+      "conditions": [
+        "Timoth\u00e9e approves the statement by 6:15 PM",
+        "Statement maintains apologetic but not overly defensive tone",
+        "No new damaging context emerges before posting"
+      ],
+      "recommended_channel": "social post",
+      "timing": "6:20 PM - after Timoth\u00e9e's approval but before the Daily Ledger publishes"
+    },
+    "parsed_packet": {
+      "talent_name": "Timoth\u00e9e Chalamet",
+      "scenario_time": "5:30 PM",
+      "situation_summary": "A 22-second interview clip started spreading at about 4:45 PM across TikTok, X, Instagram Reels, Reddit, and group chats. By 5:30 PM it has become a fast-moving arts-and-celebrity backlash, with meme risk rising a few hours before a major awards-night appearance.",
+      "clip_description": "The clip shows Timoth\u00e9e saying he does not want to be working in **\"ballet or opera\"** where **\"no one cares about this anymore.\"**",
+      "known_facts": [],
+      "known_limits": [
+        "the clip is real",
+        "it came from a longer conversation",
+        "the full conversation is not provided here",
+        "you do not know what was said immediately before or after the clip"
+      ],
+      "timing_constraints": [
+        "Timoth\u00e9e is off-phone in prep until **6:05 PM**.",
+        "Any public statement in Timoth\u00e9e's voice requires **Timoth\u00e9e's approval**.",
+        "The manager can approve **sponsor and reporter holding replies** before then.",
+        "Maison Valeur needs a sponsor-safe holding line by **5:50 PM**.",
+        "That holding line must work before full facts are available and must be **40 words or fewer**."
+      ],
+      "voice_guidelines": {
+        "aim_for": [
+          "calm, self-aware, and human",
+          "specific without sounding over-lawyered",
+          "respectful to the affected audience",
+          "accountable for impact without overstating unverified facts"
+        ],
+        "do_not": [
+          "make **\"you misunderstood me\"** the whole message",
+          "argue with commenters",
+          "try to joke this away",
+          "sound condescending about ballet, opera, or \"old\" art",
+          "center awards-night excitement while backlash is active"
+        ]
+      },
+      "escalation_details": [],
+      "voicemail_signals": []
+    }
+  },
+  "phase2": {
+    "phase": "Phase 2",
+    "phase2_note": "This Phase 2 plan was produced after completing Phase 1.",
+    "escalation_summary": "TALENT: Timoth\u00e9e Chalamet\nSCENARIO TIME: 6:15 PM\nINBOUND MESSAGES:\n  [MessagePriority.IMMEDIATE] Maison Valeur partnership lead, 6:15 PM: We need a concrete plan from your team within the next 20 minutes. This issue has now been escalated internally, and we are considering pausing all brand activity involving Timoth\u00e9e tonight, including red-carpet visibility, social amplification, and any sponsor-tagged content, unless we receive a credible response plan.\n\nBy **6:35 PM**, please send:\n- whether Timoth\u00e9e plans to issue a public statement tonight\n- whether he will still do press at the event\n- the exact line our team can use internally and, if needed, externally\n- confirmation of who is approving communications on your side\n\nIf we do not have a plan by then, we will move forward with a precautionary hold on all brand activity involving talent tonight.\nESCALATION:\n  - Maison Valeur has escalated the issue internally.\n  - The sponsor now wants a concrete plan within **20 minutes**.\n  - Same-night brand activity may be paused without a credible response plan.\nVOICEMAIL SIGNALS:\n  - Laurent Duchamp, VP Partnerships \u2014 Maison Clar\u00e9e (received 18:03, 0:24)\n  - Tom Ellery, Journalist \u2014 Arts & Culture Weekly (received 17:52, 0:28)\n\nESCALATION NOTE: This is a stakeholder-pressure update, not a fact update.\nNo new factual evidence about the original clip has emerged.",
+    "updated_triage": {
+      "severity": "critical",
+      "reasoning": "Maison Valeur has escalated internally and threatens to pause all brand activity tonight without a concrete response plan by 6:35 PM. This represents immediate financial and reputational risk. Additional pressure from Maison Clar\u00e9e VP and Arts & Culture Weekly journalist signals broader stakeholder concern. The 20-minute deadline makes this critical.",
+      "immediate_actions": [
+        "Send urgent update to Manager about sponsor ultimatum (6:16 PM)",
+        "Prepare comprehensive response package for Maison Valeur by 6:30 PM",
+        "Accelerate Timoth\u00e9e's decision on public statement",
+        "Draft contingency plan if sponsor pauses activity",
+        "Return priority voicemails after sponsor deadline"
+      ],
+      "risks": [
+        "Loss of Maison Valeur sponsorship visibility tonight and potentially beyond",
+        "Cascade effect if Maison Clar\u00e9e follows suit based on VP's voicemail",
+        "Public perception of sponsor abandonment amplifying the crisis",
+        "Limited time preventing thoughtful talent consultation",
+        "Rushed response under ultimatum pressure backfiring"
+      ],
+      "stakeholder_priorities": [
+        "Maison Valeur: Demands concrete plan by 6:35 PM or pulls tonight's support",
+        "Timoth\u00e9e: Must approve crisis acceleration despite limited availability",
+        "Maison Clar\u00e9e: VP calling suggests second sponsor concerns emerging",
+        "Arts & Culture Weekly: Another outlet preparing coverage",
+        "Manager: Must navigate sponsor ultimatum with talent interests"
+      ]
+    },
+    "updated_drafts": [
+      {
+        "target": "sponsor",
+        "recipient_name": "Maison Valeur",
+        "content": "We're aware of the clip and actively addressing it. Timoth\u00e9e values the arts deeply and will clarify his comments. Tonight's appearances proceed as planned. Full context coming soon.",
+        "word_count": 28,
+        "approval_required_from": "Manager",
+        "rationale": "Acknowledges issue without panic, confirms stability of partnership activities, promises resolution without making unverified claims about context",
+        "deadline": "5:50 PM"
+      },
+      {
+        "target": "reporter",
+        "recipient_name": "Alex Chen",
+        "content": "The clip appears to be from a longer conversation about how arts organizations can build sustainable audiences. We're working to provide fuller context. Timoth\u00e9e has deep respect for all performing arts and their communities. We'll have more to share shortly.",
+        "word_count": 41,
+        "approval_required_from": "Manager",
+        "rationale": "Provides holding context without claiming full verification, acknowledges the clip is real while suggesting incompleteness, expresses respect for affected communities",
+        "deadline": "6:15 PM"
+      },
+      {
+        "target": "manager",
+        "recipient_name": "Manager",
+        "content": "URGENT: Maison Valeur escalated. They demand concrete plan by 6:35 PM or will pause ALL brand activity tonight. Need immediate decision from Timoth\u00e9e on public statement. Also have voicemails from Maison Clar\u00e9e VP and Arts & Culture Weekly - second sponsor may be wavering. Recommend we commit to statement release by 6:45 PM to save partnerships.",
+        "word_count": 55,
+        "approval_required_from": "None - internal",
+        "rationale": "Conveys urgency of sponsor ultimatum, highlights risk of cascade effect, pushes for accelerated timeline to preserve partnerships",
+        "deadline": "6:16 PM"
+      },
+      {
+        "target": "public",
+        "recipient_name": "Public Statement Draft",
+        "content": "I see how my words in that clip landed, and I'm genuinely sorry. I was trying to make a point about how arts organizations struggle when audiences don't show up - but I expressed it terribly. Ballet and opera are extraordinary art forms that deserve thriving audiences. The artists who dedicate their lives to these crafts have my complete respect. I should have said that better.",
+        "word_count": 68,
+        "approval_required_from": "Timoth\u00e9e",
+        "rationale": "Acknowledges impact without overexplaining, takes responsibility for poor expression rather than blaming misunderstanding, specifically honors the art forms and artists affected, sounds genuinely reflective rather than PR-crafted",
+        "deadline": "6:05 PM"
+      },
+      {
+        "target": "sponsor",
+        "recipient_name": "Maison Valeur Response Package",
+        "content": "Thank you for your patience. Here is our concrete action plan:\n\n1. PUBLIC STATEMENT: Timoth\u00e9e will issue a thoughtful apology by 6:45 PM acknowledging his poor word choice and expressing genuine respect for ballet/opera communities.\n\n2. PRESS APPROACH: He will address this directly in red carpet interviews, taking responsibility and pivoting to arts appreciation.\n\n3. APPROVED LINE: 'Timoth\u00e9e recognizes his comments were poorly expressed. He has deep respect for all performing arts and is addressing this directly with the affected communities.'\n\n4. APPROVAL CHAIN: Manager has full authority to approve all communications with direct talent input.\n\nWe value our partnership and are committed to addressing this thoughtfully and swiftly.",
+        "word_count": 109,
+        "approval_required_from": "Manager",
+        "rationale": "Directly answers all four sponsor demands with specific commitments and timelines, demonstrates control and accountability",
+        "deadline": "6:30 PM"
+      }
+    ],
+    "updated_timeline": [
+      {
+        "time": "5:30 PM",
+        "action": "Begin monitoring sentiment metrics and meme evolution across all platforms",
+        "owner": "Social Media Coordinator",
+        "status": "completed",
+        "depends_on": null
+      },
+      {
+        "time": "5:35 PM",
+        "action": "Send internal guidance to Manager about response strategy",
+        "owner": "PR Lead",
+        "status": "completed",
+        "depends_on": null
+      },
+      {
+        "time": "5:40 PM",
+        "action": "Draft sponsor holding line for Maison Valeur",
+        "owner": "PR Lead",
+        "status": "completed",
+        "depends_on": null
+      },
+      {
+        "time": "5:45 PM",
+        "action": "Manager reviews and approves sponsor holding line",
+        "owner": "Manager",
+        "status": "completed",
+        "depends_on": "Draft sponsor holding line for Maison Valeur"
+      },
+      {
+        "time": "5:48 PM",
+        "action": "Send approved sponsor holding line to Maison Valeur",
+        "owner": "PR Lead",
+        "status": "completed",
+        "depends_on": "Manager reviews and approves sponsor holding line"
+      },
+      {
+        "time": "5:50 PM",
+        "action": "Draft reporter holding response for Alex Chen",
+        "owner": "PR Lead",
+        "status": "completed",
+        "depends_on": null
+      },
+      {
+        "time": "5:55 PM",
+        "action": "Alert carpet/arrivals team about potential hostile questions",
+        "owner": "PR Coordinator",
+        "status": "completed",
+        "depends_on": null
+      },
+      {
+        "time": "6:00 PM",
+        "action": "Manager reviews and approves reporter holding response",
+        "owner": "Manager",
+        "status": "completed",
+        "depends_on": "Draft reporter holding response for Alex Chen"
+      },
+      {
+        "time": "6:00 PM",
+        "action": "Complete draft of full public statement options for talent review",
+        "owner": "PR Lead",
+        "status": "completed",
+        "depends_on": null
+      },
+      {
+        "time": "6:03 PM",
+        "action": "Send approved reporter holding response to Alex Chen",
+        "owner": "PR Lead",
+        "status": "completed",
+        "depends_on": "Manager reviews and approves reporter holding response"
+      },
+      {
+        "time": "6:05 PM",
+        "action": "Brief Timoth\u00e9e on situation and present statement options",
+        "owner": "Manager",
+        "status": "completed",
+        "depends_on": "Complete draft of full public statement options for talent review"
+      },
+      {
+        "time": "6:16 PM",
+        "action": "Send URGENT update to Manager about Maison Valeur ultimatum",
+        "owner": "PR Lead",
+        "status": "ready",
+        "depends_on": null
+      },
+      {
+        "time": "6:18 PM",
+        "action": "Manager escalates to Timoth\u00e9e for accelerated statement decision",
+        "owner": "Manager",
+        "status": "pending",
+        "depends_on": "Send URGENT update to Manager about Maison Valeur ultimatum"
+      },
+      {
+        "time": "6:20 PM",
+        "action": "Draft comprehensive Maison Valeur response package",
+        "owner": "PR Lead",
+        "status": "ready",
+        "depends_on": null
+      },
+      {
+        "time": "6:25 PM",
+        "action": "Timoth\u00e9e provides expedited approval on public statement",
+        "owner": "Timoth\u00e9e",
+        "status": "pending",
+        "depends_on": "Manager escalates to Timoth\u00e9e for accelerated statement decision"
+      },
+      {
+        "time": "6:28 PM",
+        "action": "Manager approves Maison Valeur response package",
+        "owner": "Manager",
+        "status": "pending",
+        "depends_on": "Draft comprehensive Maison Valeur response package"
+      },
+      {
+        "time": "6:30 PM",
+        "action": "Send response package to Maison Valeur",
+        "owner": "PR Lead",
+        "status": "blocked",
+        "depends_on": "Manager approves Maison Valeur response package"
+      },
+      {
+        "time": "6:35 PM",
+        "action": "Confirm receipt with Maison Valeur and address any immediate concerns",
+        "owner": "Manager",
+        "status": "blocked",
+        "depends_on": "Send response package to Maison Valeur"
+      },
+      {
+        "time": "6:40 PM",
+        "action": "Post approved public statement on primary social channels",
+        "owner": "Social Media Coordinator",
+        "status": "blocked",
+        "depends_on": "Timoth\u00e9e provides expedited approval on public statement"
+      },
+      {
+        "time": "6:45 PM",
+        "action": "Send statement confirmation to all sponsors with link",
+        "owner": "PR Lead",
+        "status": "blocked",
+        "depends_on": "Post approved public statement on primary social channels"
+      },
+      {
+        "time": "6:50 PM",
+        "action": "Return priority voicemails from Maison Clar\u00e9e VP and Arts & Culture Weekly",
+        "owner": "Manager",
+        "status": "pending",
+        "depends_on": "Send statement confirmation to all sponsors with link"
+      },
+      {
+        "time": "7:00 PM",
+        "action": "Final briefing for Timoth\u00e9e on carpet talking points with sponsor updates",
+        "owner": "PR Lead",
+        "status": "pending",
+        "depends_on": "Post approved public statement on primary social channels"
+      },
+      {
+        "time": "7:30 PM",
+        "action": "Support Timoth\u00e9e through arrivals and carpet appearances",
+        "owner": "PR Coordinator",
+        "status": "pending",
+        "depends_on": "Final briefing for Timoth\u00e9e on carpet talking points with sponsor updates"
+      }
+    ],
+    "updated_decision": {
+      "decision": "speak",
+      "rationale": "Maison Valeur's ultimatum with 6:35 PM deadline forces immediate action to preserve tonight's brand partnerships. The threat to pause all brand activity could trigger a cascade with other sponsors like Maison Clar\u00e9e. A public statement by 6:45 PM is now essential to demonstrate accountability and prevent sponsor withdrawal. The accelerated timeline is worth the risk to maintain partnership stability.",
+      "conditions": [
+        "Response package sent to Maison Valeur by 6:30 PM",
+        "Public statement posted by 6:45 PM as promised to sponsor",
+        "Manager maintains direct communication with sponsors throughout"
+      ],
+      "recommended_channel": "social post",
+      "timing": "6:40 PM - allows sponsor confirmation before public release"
+    },
+    "what_changed": "Maison Valeur issued a 20-minute ultimatum threatening to pause all brand activity tonight, forcing acceleration from conditional to definitive action. Added urgent sponsor response package and compressed timeline to meet 6:35 PM deadline while maintaining other commitments.",
+    "phase1_plan": {
+      "phase": "Phase 1",
+      "context_summary": "TALENT: Timoth\u00e9e Chalamet\nSCENARIO TIME: 5:30 PM\nSITUATION: A 22-second interview clip started spreading at about 4:45 PM across TikTok, X, Instagram Reels, Reddit, and group chats. By 5:30 PM it has become a fast-moving arts-and-celebrity backlash, with meme risk rising a few hours before a major awards-night appearance.\nCLIP: The clip shows Timoth\u00e9e saying he does not want to be working in **\"ballet or opera\"** where **\"no one cares about this anymore.\"**\nKNOWN LIMITS:\n  - the clip is real\n  - it came from a longer conversation\n  - the full conversation is not provided here\n  - you do not know what was said immediately before or after the clip\nTIMING CONSTRAINTS:\n  - Timoth\u00e9e is off-phone in prep until **6:05 PM**.\n  - Any public statement in Timoth\u00e9e's voice requires **Timoth\u00e9e's approval**.\n  - The manager can approve **sponsor and reporter holding replies** before then.\n  - Maison Valeur needs a sponsor-safe holding line by **5:50 PM**.\n  - That holding line must work before full facts are available and must be **40 words or fewer**.\nVOICE \u2014 AIM FOR: calm, self-aware, and human; specific without sounding over-lawyered; respectful to the affected audience; accountable for impact without overstating unverified facts\nVOICE \u2014 DO NOT: make **\"you misunderstood me\"** the whole message; argue with commenters; try to joke this away; sound condescending about ballet, opera, or \"old\" art; center awards-night excitement while backlash is active\nINBOUND MESSAGES:\n  [MessagePriority.URGENT] Sponsor \u2014 Maison Valeur partnership lead, 5:18 PM: We are seeing a sharp rise in tags and comments tying Timoth\u00e9e to the circulating clip. Before arrivals, we need to know whether more context is expected, whether Timoth\u00e9e plans to address this publicly, and whether you recommend any change to his planned sponsor-facing activity tonight. Our team is monitoring closely.\n  [MessagePriority.STANDARD] Reporter \u2014 Alex Chen, The Daily Ledger, 5:22 PM: We are preparing a short piece on the reaction to Timoth\u00e9e Chalamet's viral comments this afternoon. Can you confirm whether the circulating quote is accurate, whether Timoth\u00e9e stands by the remark, and whether he plans to address criticism before tonight's appearance? We aim to publish by **6:30 PM** and would welcome comment before then.\n  [MessagePriority.URGENT] Manager, 5:25 PM: The clip is real, but it is from a longer conversation and sounds harsher on its own. He was talking about audience demand and how art survives when people genuinely care enough to show up for it. He is in prep now, annoyed, and his instinct is to post something like \"watch the full context\" and move on. Arrivals start around **7:30 PM**. Maison Valeur wants to know whether he is still doing carpet and press as planned.\n\n**Status of that explanation:** internal context only. It is **not** independently verified by this packet.",
+      "triage": {
+        "severity": "high",
+        "reasoning": "A viral clip criticizing ballet/opera has sparked fast-moving arts community backlash hours before a major awards appearance. The talent is unreachable during critical response window, and key sponsor Maison Valeur needs immediate reassurance while press coverage is imminent.",
+        "immediate_actions": [
+          "Draft sponsor holding line for manager approval by 5:50 PM",
+          "Prepare reporter holding response for manager approval",
+          "Monitor sentiment metrics and meme evolution",
+          "Draft fuller statement options for Timoth\u00e9e's 6:05 PM review",
+          "Alert carpet/arrivals team about potential hostile questions"
+        ],
+        "risks": [
+          "Sponsor relationship damage if Maison Valeur perceives inadequate response",
+          "Arts community alienation affecting long-term brand positioning",
+          "Meme acceleration making sincere response harder",
+          "Awards night coverage overshadowed by controversy",
+          "Defensive response worsening perception"
+        ],
+        "stakeholder_priorities": [
+          "Maison Valeur: Needs holding line by 5:50 PM to assess partnership risk",
+          "The Daily Ledger: Publishing at 6:30 PM, shapes narrative",
+          "Timoth\u00e9e: Available at 6:05 PM, must approve any statement",
+          "Arts community: Seeking accountability for perceived dismissal",
+          "Awards show producers: Need to know if carpet plans change"
+        ]
+      },
+      "drafts": [
+        {
+          "target": "sponsor",
+          "recipient_name": "Maison Valeur",
+          "content": "We're aware of the clip and actively addressing it. Timoth\u00e9e values the arts deeply and will clarify his comments. Tonight's appearances proceed as planned. Full context coming soon.",
+          "word_count": 28,
+          "approval_required_from": "Manager",
+          "rationale": "Acknowledges issue without panic, confirms stability of partnership activities, promises resolution without making unverified claims about context",
+          "deadline": "5:50 PM"
+        },
+        {
+          "target": "reporter",
+          "recipient_name": "Alex Chen",
+          "content": "The clip appears to be from a longer conversation about how arts organizations can build sustainable audiences. We're working to provide fuller context. Timoth\u00e9e has deep respect for all performing arts and their communities. We'll have more to share shortly.",
+          "word_count": 41,
+          "approval_required_from": "Manager",
+          "rationale": "Provides holding context without claiming full verification, acknowledges the clip is real while suggesting incompleteness, expresses respect for affected communities",
+          "deadline": "6:15 PM"
+        },
+        {
+          "target": "manager",
+          "recipient_name": "Manager",
+          "content": "Recommend against 'watch the full context' approach - sounds dismissive when arts community feels disrespected. Suggest: acknowledge the impact, clarify his actual point about audience engagement, express genuine respect for these art forms. Can draft options by 6:00 PM for his review. Carpet proceeds but prep him for questions.",
+          "word_count": 52,
+          "approval_required_from": "None - internal",
+          "rationale": "Guides away from defensive response that could worsen situation, offers constructive alternative that addresses core concerns",
+          "deadline": "5:35 PM"
+        },
+        {
+          "target": "public",
+          "recipient_name": "Public Statement Draft",
+          "content": "I see how my words in that clip landed, and I'm genuinely sorry. I was trying to make a point about how arts organizations struggle when audiences don't show up - but I expressed it terribly. Ballet and opera are extraordinary art forms that deserve thriving audiences. The artists who dedicate their lives to these crafts have my complete respect. I should have said that better.",
+          "word_count": 68,
+          "approval_required_from": "Timoth\u00e9e",
+          "rationale": "Acknowledges impact without overexplaining, takes responsibility for poor expression rather than blaming misunderstanding, specifically honors the art forms and artists affected, sounds genuinely reflective rather than PR-crafted",
+          "deadline": "6:05 PM"
+        }
+      ],
+      "timeline": [
+        {
+          "time": "5:30 PM",
+          "action": "Begin monitoring sentiment metrics and meme evolution across all platforms",
+          "owner": "Social Media Coordinator",
+          "status": "ready",
+          "depends_on": null
+        },
+        {
+          "time": "5:35 PM",
+          "action": "Send internal guidance to Manager about response strategy",
+          "owner": "PR Lead",
+          "status": "ready",
+          "depends_on": null
+        },
+        {
+          "time": "5:40 PM",
+          "action": "Draft sponsor holding line for Maison Valeur",
+          "owner": "PR Lead",
+          "status": "ready",
+          "depends_on": null
+        },
+        {
+          "time": "5:45 PM",
+          "action": "Manager reviews and approves sponsor holding line",
+          "owner": "Manager",
+          "status": "pending",
+          "depends_on": "Draft sponsor holding line for Maison Valeur"
+        },
+        {
+          "time": "5:48 PM",
+          "action": "Send approved sponsor holding line to Maison Valeur",
+          "owner": "PR Lead",
+          "status": "pending",
+          "depends_on": "Manager reviews and approves sponsor holding line"
+        },
+        {
+          "time": "5:50 PM",
+          "action": "Draft reporter holding response for Alex Chen",
+          "owner": "PR Lead",
+          "status": "ready",
+          "depends_on": null
+        },
+        {
+          "time": "5:55 PM",
+          "action": "Alert carpet/arrivals team about potential hostile questions",
+          "owner": "PR Coordinator",
+          "status": "ready",
+          "depends_on": null
+        },
+        {
+          "time": "6:00 PM",
+          "action": "Manager reviews and approves reporter holding response",
+          "owner": "Manager",
+          "status": "pending",
+          "depends_on": "Draft reporter holding response for Alex Chen"
+        },
+        {
+          "time": "6:00 PM",
+          "action": "Complete draft of full public statement options for talent review",
+          "owner": "PR Lead",
+          "status": "ready",
+          "depends_on": null
+        },
+        {
+          "time": "6:03 PM",
+          "action": "Send approved reporter holding response to Alex Chen",
+          "owner": "PR Lead",
+          "status": "pending",
+          "depends_on": "Manager reviews and approves reporter holding response"
+        },
+        {
+          "time": "6:05 PM",
+          "action": "Brief Timoth\u00e9e on situation and present statement options",
+          "owner": "Manager",
+          "status": "pending",
+          "depends_on": "Complete draft of full public statement options for talent review"
+        },
+        {
+          "time": "6:15 PM",
+          "action": "Timoth\u00e9e reviews and approves public statement",
+          "owner": "Timoth\u00e9e",
+          "status": "pending",
+          "depends_on": "Brief Timoth\u00e9e on situation and present statement options"
+        },
+        {
+          "time": "6:20 PM",
+          "action": "Post approved public statement on primary social channels",
+          "owner": "Social Media Coordinator",
+          "status": "blocked",
+          "depends_on": "Timoth\u00e9e reviews and approves public statement"
+        },
+        {
+          "time": "6:25 PM",
+          "action": "Send follow-up to Maison Valeur with public statement link",
+          "owner": "PR Lead",
+          "status": "blocked",
+          "depends_on": "Post approved public statement on primary social channels"
+        },
+        {
+          "time": "6:25 PM",
+          "action": "Send follow-up to Alex Chen with public statement link",
+          "owner": "PR Lead",
+          "status": "blocked",
+          "depends_on": "Post approved public statement on primary social channels"
+        },
+        {
+          "time": "6:30 PM",
+          "action": "Continue monitoring reactions to public statement",
+          "owner": "Social Media Coordinator",
+          "status": "blocked",
+          "depends_on": "Post approved public statement on primary social channels"
+        },
+        {
+          "time": "7:00 PM",
+          "action": "Final briefing for Timoth\u00e9e on carpet talking points",
+          "owner": "PR Lead",
+          "status": "pending",
+          "depends_on": "Timoth\u00e9e reviews and approves public statement"
+        },
+        {
+          "time": "7:30 PM",
+          "action": "Support Timoth\u00e9e through arrivals and carpet appearances",
+          "owner": "PR Coordinator",
+          "status": "pending",
+          "depends_on": "Final briefing for Timoth\u00e9e on carpet talking points"
+        }
+      ],
+      "decision": {
+        "decision": "conditional_speak",
+        "rationale": "The viral clip has gained significant traction with arts community backlash intensifying before a major public appearance. With key sponsor concerns and imminent press coverage, strategic response is necessary once Timoth\u00e9e approves. The drafted statement effectively acknowledges impact without being defensive, making it worth executing if he's comfortable with the tone.",
+        "conditions": [
+          "Timoth\u00e9e approves the statement by 6:15 PM",
+          "Statement maintains apologetic but not overly defensive tone",
+          "No new damaging context emerges before posting"
+        ],
+        "recommended_channel": "social post",
+        "timing": "6:20 PM - after Timoth\u00e9e's approval but before the Daily Ledger publishes"
+      },
+      "parsed_packet": {
+        "talent_name": "Timoth\u00e9e Chalamet",
+        "scenario_time": "5:30 PM",
+        "situation_summary": "A 22-second interview clip started spreading at about 4:45 PM across TikTok, X, Instagram Reels, Reddit, and group chats. By 5:30 PM it has become a fast-moving arts-and-celebrity backlash, with meme risk rising a few hours before a major awards-night appearance.",
+        "clip_description": "The clip shows Timoth\u00e9e saying he does not want to be working in **\"ballet or opera\"** where **\"no one cares about this anymore.\"**",
+        "known_facts": [],
+        "known_limits": [
+          "the clip is real",
+          "it came from a longer conversation",
+          "the full conversation is not provided here",
+          "you do not know what was said immediately before or after the clip"
+        ],
+        "timing_constraints": [
+          "Timoth\u00e9e is off-phone in prep until **6:05 PM**.",
+          "Any public statement in Timoth\u00e9e's voice requires **Timoth\u00e9e's approval**.",
+          "The manager can approve **sponsor and reporter holding replies** before then.",
+          "Maison Valeur needs a sponsor-safe holding line by **5:50 PM**.",
+          "That holding line must work before full facts are available and must be **40 words or fewer**."
+        ],
+        "voice_guidelines": {
+          "aim_for": [
+            "calm, self-aware, and human",
+            "specific without sounding over-lawyered",
+            "respectful to the affected audience",
+            "accountable for impact without overstating unverified facts"
+          ],
+          "do_not": [
+            "make **\"you misunderstood me\"** the whole message",
+            "argue with commenters",
+            "try to joke this away",
+            "sound condescending about ballet, opera, or \"old\" art",
+            "center awards-night excitement while backlash is active"
+          ]
+        },
+        "escalation_details": [],
+        "voicemail_signals": []
+      }
+    }
+  }
+}
