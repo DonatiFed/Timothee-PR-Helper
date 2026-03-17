@@ -1,6 +1,6 @@
 # Challenge Brief
 
-## Build the best "Timmy vs. Opera/Ballet" crisis response agent
+## Build the best "Timothée vs. Opera/Ballet" crisis response agent
 
 Build a crisis response agent for a fast moving celebrity backlash. The job is to assess risk, route work across stakeholders, produce aligned communications, and update the plan when pressure increases.
 
