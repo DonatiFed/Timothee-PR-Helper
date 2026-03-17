@@ -45,5 +45,4 @@ These voicemail summaries are verified inbound signals available to the team by 
 **Duration:** 0:28  
 **MP3:** [Tom Ellery.mp3](https://github.com/user-attachments/files/26054251/Tom.Ellery.mp3)
 
-**Why it matters:** High-priority sponsor-side escalation signal. Treat this as time-sensitive stakeholder pressure.
-Lower-priority media inquiry. This should not outrank sponsor escalation or top-tier press pressure.
+**Why it matters:** High-priority sponsor-side escalation signal. Treat this as time-sensitive stakeholder pressure. We leave prioritization up to you to intepret based on the message, time stamp, and message leaver.
