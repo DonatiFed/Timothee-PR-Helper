@@ -11,10 +11,8 @@ This is not a statement-writing contest. We score judgment, sequencing, coordina
 This challenge is designed to:
 - require a real agentic workflow
 - allow different solution styles
-- make bluffing harder than in a one-shot writing task
 - show decisions, approvals, and revisions in action
 - reward process quality, not polished copy alone
-- stay small enough for a focused build over about 50 hours
 
 ## Why this scenario works
 
@@ -28,7 +26,7 @@ All entrants receive the same two packets.
 
 ### Packet A — The clip breaks
 **Scenario time:** 5:30 PM  
-A 22-second clip is spreading. Reporter, sponsor, and management messages arrive. Timmy is off-phone until 6:05 PM. A sponsor-safe holding line is needed by 5:50 PM.
+A 22-second clip is spreading. Reporter, sponsor, and management messages arrive. Timmy is off phone until 6:05 PM. A sponsor safe holding line is needed by 5:50 PM.
 
 ### Packet B — Sponsor escalation
 **Scenario time:** 6:15 PM  
@@ -52,14 +50,14 @@ Build a workflow that can:
 - Do not invent missing transcript context.
 - Do not assume legal review, full interview access, or outside evidence.
 - Respect every stated approval limit and deadline.
-- Complete Phase 1 before Packet B.
+- Complete Phase 1 before Packet b.
 - Phase 2 must update Phase 1. Do not restart from scratch.
 - Clearly label Phase 1 and Phase 2.
 - Include one sentence stating that Phase 2 was produced after Phase 1.
 
 ## Valid builds
 
-You do not need a full production app. Valid entries can be code-based, no-code, notebook-based, prompt/config-based, or structured workflow specs. Small builds are valid if the operating logic is clear. No app, deployment, or demo video is required.
+You do not need a full production app. Valid entries can be code based, no-code, notebook based, prompt/config-based, or structured workflow specs. Small builds are valid if the operating logic is clear. No app, deployment, or demo video is required.
 
 ## Submission requirements
 
@@ -71,7 +69,7 @@ The final commit SHA is the version we judge.
 
 Your repo must include:
 - one main submission file
-- one standalone first-hour triage table artifact
+- one standalone first hour triage table artifact
 - a short workflow overview or README
 - any optional support files needed to understand how the build works
 
