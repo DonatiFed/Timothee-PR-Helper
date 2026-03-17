@@ -30,3 +30,24 @@ Use this file with `challenge_brief.md`. This packet happens later in scenario t
 > - confirmation of who is approving communications on your side
 >
 > If we do not have a plan by then, we will move forward with a precautionary hold on all brand activity involving talent tonight.
+
+## Additional inbound voicemails
+
+These voicemail summaries are verified inbound signals available to the team by 6:15 PM. They add pressure and prioritization context, but do not change the underlying facts of the original clip.
+
+### URGENT — Laurent Duchamp, VP Partnerships — Maison Clarée
+**Received:** 18:03  
+**Duration:** 0:24  
+**Metadata:** Voice is clipped, formal register dropped mid-message, background noise suggests he stepped away from a meeting.
+**MP3:** [Urgent Laurent Duchamp.mp3](https://github.com/user-attachments/files/26054103/Urgent.Laurent.Duchamp.mp3)
+
+
+**Why it matters:** High-priority sponsor-side escalation signal. Treat this as time-sensitive stakeholder pressure.
+
+### Lower priority — Tom Ellery, Journalist — Arts & Culture Weekly
+**Received:** 17:52  
+**Duration:** 0:28  
+**Metadata:** Tone is breezy, leaving message out of courtesy rather than urgency, clearly expects no same-day response.
+**MP3:** [Tom Ellery not urgent.mp3](https://github.com/user-attachments/files/26054112/Tom.Ellery.not.urgent.mp3)
+
+**Why it matters:** Lower-priority media inquiry. This should not outrank sponsor escalation or top-tier press pressure.
